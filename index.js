@@ -23,7 +23,6 @@ age < 20 ? console.log("you age is less than 20"):
 }
 else
 console.log("both ages are not equal")
-
 // console.log("hello! world");
 // // before ES6
 // var myVar = "var keyword"; //use ni krna
@@ -46,7 +45,7 @@ console.log("both ages are not equal")
 //   //   alert("you are eligible");
 // }
 
-//age > 18 && console.log("you are eligible");
+// age > 18 && console.log("you are eligible");
 
 // age = 15;
 
@@ -71,4 +70,66 @@ console.log("both ages are not equal")
 // if (num1 === num2) {
 //   console.log("equal");
 // } else {
-//   consol
+//   console.log("not equal");
+// }
+// let num3 = 3;
+// num1 *= num3;
+// console.log(num1);
+
+// const myName = "Hamza Masood";
+// const myAge = 36;
+// const myFloat = 3.25;
+// const myBoolean = true;
+
+// if (typeof myAge === "number") {
+//   console.log("age is valid");
+// } else {
+//   console.log("age is invalid");
+// }
+
+// const myArr = [myName, myAge];
+// console.log(myArr);
+
+// const myObj = {
+//   name: "Hamza Masood",
+//   age: 36,
+// };
+
+// console.log(myObj);
+// console.log(myObj.name);
+// console.log(myObj.age);
+
+// for (let i = 0; i < 10; i++) {
+//   console.log(`print i ${i}`);
+// }
+
+// let j = 0;
+// while (j < 10) {
+//   console.log(`print j ${j}`);
+//   j++;
+// }
+
+const foodItems = ["pizza", "samosa", "cock", "pakory", "cake"];
+
+foodItems.forEach((food) => {
+  console.log(`my item is ${food}`);
+});
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+myNums.forEach(num => {
+  console.log(`new num is ${num * 2}`)
+})
+
+
+// for (let i = 0; i < foodItems.length; i++) {
+//   console.log(foodItems[i]);
+// }
+
+// let j = foodItems.length - 1;
+// while (j >= 0) {
+//   console.log(foodItems[j]);
+//   j--;
+// }
+
+
+
