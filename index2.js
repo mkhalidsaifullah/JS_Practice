@@ -8,6 +8,13 @@ const person = {
   "joing-date": "24-6-21",
 };
 
+const person2 = {
+  name: "Muhammad Khalid Saifullah",
+  age: 21,
+  class: "BSSE A",
+  joining_date: "4-9-21"
+}
+console.log(person2);
 console.log(person);
 person["joing-date"] = "22-7-21";
 person.name = "hamza";
@@ -18,6 +25,11 @@ function myFun1(user) {
   console.log(`hello how are you ${user}`);
 }
 
+function newfunction(user1){
+  console.log('This is my new function ${user1}')
+}
+
+newfunction(user1)
 // new style
 const myFun2 = function (user) {
   console.log(`hello how are you ${user}`);
@@ -28,6 +40,9 @@ const myFun3 = () => {
   console.log(`this is arrow func `);
 };
 
+const  newfunction = function (user){
+  console.log("This is my new style function")
+}
 const myFun4 = (user) => {
   return {
     name: "khalid",
