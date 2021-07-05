@@ -1,28 +1,26 @@
+console.log("this is git change checking");
 console.log("This is my practice on JS");
-var myName = "Khalid"
-var myName1 = "Saifullah"
-console.log(myName + myName1)
-console.log(myName, myName1)
+var myName = "Khalid";
+var myName1 = "Saifullah";
+console.log(myName + myName1);
+console.log(myName, myName1);
 console.log(`This is my name= ${myName} ${myName1}`);
-let name = "my name is khalid";//for declearing simple variable
+let name = "my name is khalid"; //for declearing simple variable
 const name1 = "my Name is muhammad khalid saifullah";
-console.log(`This is my name= ${name} `);//for declearing const variable
+console.log(`This is my name= ${name} `); //for declearing const variable
 const age = 20;
 const age1 = "20";
 if (age < 20) {
-    console.log("Age is less than 20");
-}
-else
-    console.log("Age is gerater than 20");
+  console.log("Age is less than 20");
+} else console.log("Age is gerater than 20");
 
 age < 20 && console.log("age is less than 20");
-age < 20 ? console.log("you age is less than 20"):
- console.log("your age is greater than 20")
- if (age === age1) {
-    console.log("both ages equal");
-}
-else
-console.log("both ages are not equal")
+age < 20
+  ? console.log("you age is less than 20")
+  : console.log("your age is greater than 20");
+if (age === age1) {
+  console.log("both ages equal");
+} else console.log("both ages are not equal");
 // console.log("hello! world");
 // // before ES6
 // var myVar = "var keyword"; //use ni krna
@@ -115,11 +113,10 @@ foodItems.forEach((food) => {
   console.log(`my item is ${food}`);
 });
 
-const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-myNums.forEach(num => {
-  console.log(`new num is ${num * 2}`)
-})
-
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+myNums.forEach((num) => {
+  console.log(`new num is ${num * 2}`);
+});
 
 // for (let i = 0; i < foodItems.length; i++) {
 //   console.log(foodItems[i]);
@@ -130,6 +127,3 @@ myNums.forEach(num => {
 //   console.log(foodItems[j]);
 //   j--;
 // }
-
-
-
