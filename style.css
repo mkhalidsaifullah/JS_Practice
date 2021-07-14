@@ -1,0 +1,30 @@
+body {
+  color: green;
+}
+
+#div1 {
+  background-color: yellow;
+}
+
+.div-1 {
+  height: 100px;
+  width: 500px;
+  border: 10px solid blue;
+  padding: 25px;
+  margin: 15px;
+}
+
+#my-name {
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#my-name :focus {
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+#my-button {
+  font-size: large;
+}
