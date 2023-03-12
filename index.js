@@ -14,13 +14,13 @@ if (age < 20) {
   console.log("Age is less than 20");
 } else console.log("Age is gerater than 20");
 
-age < 20 && console.log("age is less than 20");
-age < 20
-  ? console.log("you age is less than 20")
-  : console.log("your age is greater than 20");
-if (age === age1) {
-  console.log("both ages equal");
-} else console.log("both ages are not equal");
+// age < 20 && console.log("age is less than 20");
+// age < 20
+//   ? console.log("you age is less than 20")
+//   : console.log("your age is greater than 20");
+// if (age === age1) {
+//   console.log("both ages equal");
+// } else console.log("both ages are not equal");
 // console.log("hello! world");
 // // before ES6
 // var myVar = "var keyword"; //use ni krna
